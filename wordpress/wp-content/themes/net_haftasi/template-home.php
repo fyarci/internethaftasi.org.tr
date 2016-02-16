@@ -16,7 +16,7 @@ get_header();
   <div class="row">
     <div class="col-md-12">
       <div class="logo">
-        <img src="http://fatih.internethaftasi.org.tr/wp-content/themes/net_haftasi/static/img/logo.png" alt="" />
+        <img src="<?php echo get_site_url(); ?>/wp-content/themes/net_haftasi/static/img/logo.png" alt="" />
        </div>
     </div>
   </div>
@@ -80,9 +80,29 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
         </div>
        <div class="col-xs-6 duyuru">
            <h3><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>  Duyurular</h3>
-           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+<?php
+  $args = array( 'posts_per_page' => 3);
+  $lastposts = get_posts( $args );
+  foreach ( $lastposts as $post ) :
+  setup_postdata( $post );
+?>
+
+    <div class="media duyurular">
+        <div class="media-left">
+        <a href="#">
+        <img class="media-object" src="..." alt="...">
+        </a>
+        </div>
+    <div class="media-body">
+    <h4 class="media-heading"><a href="<?php the_permalink(); ?>"><?php the_title(); ?><a/></h4>
+     	<?php echo truncate($post->content;, 140); ?>
+    </div>
+</div>
+<?php endforeach;
+wp_reset_postdata(); ?>
+
+
        </div>
        <div class="col-xs-6 forum">
            <h3><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Forumlar</h3>
@@ -97,4 +117,6 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 <div class="home-p3">
 
 </div>
-</div>
+<?php
+get_footer();
+?>

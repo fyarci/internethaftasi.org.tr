@@ -82,6 +82,8 @@ body{
     display: flex;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background: #EEEEEE;
+	padding-top: 5%;
+	padding-bottom: 10%;
 }
 
 .logo{
@@ -105,11 +107,17 @@ body{
     align-items: center;
     display: flex;
 	background: #F2F1EF;
+	padding-top: 5%;
+	padding-bottom: 10%;
 }
 
 .sponsor{
 	margin-top: 0;
 	margin-bottom: 10%;
+}
+
+.duyurular{
+	text-align: left;
 }
 
 .home-p3{
@@ -123,6 +131,8 @@ body{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background: #EEEEEE;
 	fill: #EEEEEE;
+	padding-top: 5%;
+	padding-bottom: 10%;
 }
 
 .map{
@@ -135,6 +145,17 @@ background-size: contain;
 height: 0;
 padding: 0; /* reset */
 padding-bottom: calc(100% * 3 / 4);
+}
 
+.footer{
+    border-top: dashed 2px white ;
+    background-color: #336E7B;
+    min-height: 100px;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+.footer-menu{
+	color: white;
 
 }

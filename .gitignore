@@ -6,3 +6,5 @@ wordpress/wp-config.php
 .Trashes
 ehthumbs.db
 Thumbs.db
+!/.gitignore
+wordpress/wp-content/themes/net_haftasi/.sync-config.cson

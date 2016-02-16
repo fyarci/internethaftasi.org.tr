@@ -2,11 +2,11 @@ wordpress/wp-config.php
 .DS_Store
 .DS_Store?
 ._*
-.*
+!/.*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
 !/.gitignore
-wordpress/wp-content/themes/net_haftasi/.sync-config.cson
+wordpress/wp-content/themes/net_haftasi/.*
 

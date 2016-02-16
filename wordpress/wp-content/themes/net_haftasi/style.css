@@ -1,0 +1,26 @@
+/*Theme Name: Net Haftasi
+Theme URI: http://www.internethaftasi.org.tr
+Description: http://www.internethaftasi.org.tr
+Version: 1.0
+Author: fatih yarci
+Author URI: fatihyarci.com.tr
+*/
+
+
+body html{
+	margin: 0;
+	height: auto;
+	width: 100%;
+}
+
+.sidebar-left{
+	border: 5px solid red;
+	min-height: 750px;
+	max-width: 250px;
+	position: fixed;
+	text-align: center;
+}
+
+.years-menu{
+	color:red;
+}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" class="ie8 wp-toolbar"  lang="en-US">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar" lang="en-US"><!--<![endif]--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Etkinlik Ekle ‹ net_haftasi — WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'etkinlikler_page_?page=etkinlikler-admin-ekle',
+	typenow = '',
+	adminpage = 'etkinlikler_page_-page-etkinlikler-admin-ekle',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/load-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="open-sans-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/css.css" type="text/css" media="all">
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://192.168.99.100:8080/wp-admin/css/ie.min.css?ver=4.3' type='text/css' media='all' />
+<![endif]-->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/192.168.99.100:8080\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/wp-emoji-release.js"></script>
+		
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"1","time":"1459109852","secure":""};/* ]]> */
+</script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/load-scripts.php"></script>
+	<link id="wp-admin-canonical" rel="canonical" href="http://192.168.99.100:8080/wp-admin/admin.php?page=%3Fpage%3Detkinlikler-admin-ekle">
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#999","focus":"#00a0d2","current":"#fff"}};</script>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+</head>
+<body class="wp-admin wp-core-ui js  etkinlikler_page_-page-etkinlikler-admin-ekle auto-fold admin-bar branch-4-3 version-4-3 admin-color-fresh locale-en-us customize-support sticky-menu svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href="http://192.168.99.100:8080/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-dashboard"><br></div><div class="wp-menu-name">Dashboard</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Dashboard</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/index.php" class="wp-first-item">Home</a></li><li><a href="http://192.168.99.100:8080/wp-admin/update-core.php">Updates <span class="update-plugins count-5" title="1 WordPress Update, 1 Plugin Update, 3 Theme Updates"><span class="update-count">5</span></span></a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu open-if-no-js menu-top menu-icon-post menu-top-first" id="menu-posts">
+	<a href="http://192.168.99.100:8080/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu open-if-no-js menu-top menu-icon-post menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post"><br></div><div class="wp-menu-name">Posts</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Posts</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/edit.php" class="wp-first-item">All Posts</a></li><li><a href="http://192.168.99.100:8080/wp-admin/post-new.php">Add New</a></li><li><a href="http://192.168.99.100:8080/wp-admin/edit-tags.php?taxonomy=category">Categories</a></li><li><a href="http://192.168.99.100:8080/wp-admin/edit-tags.php?taxonomy=post_tag">Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href="http://192.168.99.100:8080/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-media"><br></div><div class="wp-menu-name">Media</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Media</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/upload.php" class="wp-first-item">Library</a></li><li><a href="http://192.168.99.100:8080/wp-admin/media-new.php">Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href="http://192.168.99.100:8080/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-page"><br></div><div class="wp-menu-name">Pages</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Pages</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/edit.php?post_type=page" class="wp-first-item">All Pages</a></li><li><a href="http://192.168.99.100:8080/wp-admin/post-new.php?post_type=page">Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last" id="menu-comments">
+	<a href="http://192.168.99.100:8080/wp-admin/edit-comments.php" class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-comments"><br></div><div class="wp-menu-name">Comments <span class="awaiting-mod count-0"><span class="pending-count">0</span></span></div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href="http://192.168.99.100:8080/wp-admin/themes.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-appearance"><br></div><div class="wp-menu-name">Appearance</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Appearance</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/themes.php" class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href="http://192.168.99.100:8080/wp-admin/customize.php?return=%2Fwp-admin%2Fadmin.php%3Fpage%3D%253Fpage%253Detkinlikler-admin-ekle" class="hide-if-no-customize">Customize</a></li><li><a href="http://192.168.99.100:8080/wp-admin/widgets.php">Widgets</a></li><li><a href="http://192.168.99.100:8080/wp-admin/nav-menus.php">Menus</a></li><li><a href="http://192.168.99.100:8080/wp-admin/theme-editor.php">Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href="http://192.168.99.100:8080/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-plugins"><br></div><div class="wp-menu-name">Plugins <span class="update-plugins count-1"><span class="plugin-count">1</span></span></div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Plugins <span class="update-plugins count-1"><span class="plugin-count">1</span></span></li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/plugins.php" class="wp-first-item">Installed Plugins</a></li><li><a href="http://192.168.99.100:8080/wp-admin/plugin-install.php">Add New</a></li><li><a href="http://192.168.99.100:8080/wp-admin/plugin-editor.php">Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href="http://192.168.99.100:8080/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-users"><br></div><div class="wp-menu-name">Users</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Users</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/users.php" class="wp-first-item">All Users</a></li><li><a href="http://192.168.99.100:8080/wp-admin/user-new.php">Add New</a></li><li><a href="http://192.168.99.100:8080/wp-admin/profile.php">Your Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href="http://192.168.99.100:8080/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-tools"><br></div><div class="wp-menu-name">Tools</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Tools</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/tools.php" class="wp-first-item">Available Tools</a></li><li><a href="http://192.168.99.100:8080/wp-admin/import.php">Import</a></li><li><a href="http://192.168.99.100:8080/wp-admin/export.php">Export</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href="http://192.168.99.100:8080/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-settings"><br></div><div class="wp-menu-name">Settings</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Settings</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/options-general.php" class="wp-first-item">General</a></li><li><a href="http://192.168.99.100:8080/wp-admin/options-writing.php">Writing</a></li><li><a href="http://192.168.99.100:8080/wp-admin/options-reading.php">Reading</a></li><li><a href="http://192.168.99.100:8080/wp-admin/options-discussion.php">Discussion</a></li><li><a href="http://192.168.99.100:8080/wp-admin/options-media.php">Media</a></li><li><a href="http://192.168.99.100:8080/wp-admin/options-permalink.php">Permalinks</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-generic toplevel_page_etkinlikler-admin menu-top-first" id="toplevel_page_etkinlikler-admin"><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=etkinlikler-admin" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-generic toplevel_page_etkinlikler-admin menu-top-first"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-generic"><br></div><div class="wp-menu-name">Etkinlikler</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Etkinlikler</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=etkinlikler-admin" class="wp-first-item">Etkinlikler</a></li><li class="current"><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=?page=etkinlikler-admin-ekle" class="current">Etkinlik Ekle</a></li><li><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=?page=etkinlikler-admin-sil">Etkinlik Sil</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-generic toplevel_page_iller-admin" id="toplevel_page_iller-admin">
+	<a href="http://192.168.99.100:8080/wp-admin/admin.php?page=iller-admin" class="wp-not-current-submenu menu-top menu-icon-generic toplevel_page_iller-admin"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-generic"><br></div><div class="wp-menu-name">İller</div></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-generic toplevel_page_birimler-admin menu-top-last" id="toplevel_page_birimler-admin"><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=birimler-admin" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-generic toplevel_page_birimler-admin menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-generic"><br></div><div class="wp-menu-name">Birimler</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Birimler</li><li class="wp-first-item"><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=birimler-admin" class="wp-first-item">Birimler</a></li><li><a href="http://192.168.99.100:8080/wp-admin/admin.php?page=?page=birimler-admin-ekle">Birim Ekle</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div><span>Collapse menu</span></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-menu-toggle"><a aria-expanded="false" class="ab-item" href="#"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a>		</li>
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://192.168.99.100:8080/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://192.168.99.100:8080/">net_haftasi</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-view-site"><a class="ab-item" href="http://192.168.99.100:8080/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/update-core.php" title="1 WordPress Update, 1 Plugin Update, 3 Theme Updates"><span class="ab-icon"></span><span class="ab-label">5</span><span class="screen-reader-text">1 WordPress Update, 1 Plugin Update, 3 Theme Updates</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://192.168.99.100:8080/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://192.168.99.100:8080/wp-admin/profile.php">Howdy, admin<img alt="" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/96dbca4ec50379cff77eebd67a85a22d.jpg" srcset="http://0.gravatar.com/avatar/96dbca4ec50379cff77eebd67a85a22d?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://192.168.99.100:8080/wp-admin/profile.php"><img alt="" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/96dbca4ec50379cff77eebd67a85a22d_002.jpg" srcset="http://0.gravatar.com/avatar/96dbca4ec50379cff77eebd67a85a22d?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://192.168.99.100:8080/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://192.168.99.100:8080/wp-login.php?action=logout&amp;_wpnonce=8c863b60cf">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://192.168.99.100:8080/wp-login.php?action=logout&amp;_wpnonce=8c863b60cf">Log Out</a>
+					</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content" aria-label="Main content" tabindex="0">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden no-sidebar" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+												</ul>
+					</div>
+
+					
+					<div class="contextual-help-tabs-wrap">
+											</div>
+				</div>
+			</div>
+				</div>
+		<div class="update-nag"><a href="https://codex.wordpress.org/Version_4.4.2">WordPress 4.4.2</a> is available! <a href="http://192.168.99.100:8080/wp-admin/update-core.php">Please update now</a>.</div><div class="update-nag">An automated WordPress update has failed to complete - <a href="http://192.168.99.100:8080/wp-admin/update-core.php">please attempt the update again now</a>.</div>
+
+		
+		<title>internethaftasi.org.tr</title>
+
+
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>§
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<link rel="alternate" type="application/rss+xml" title="net_haftasi » Feed" href="http://192.168.99.100:8080/feed/">
+<link rel="alternate" type="application/rss+xml" title="net_haftasi » Comments Feed" href="http://192.168.99.100:8080/comments/feed/">
+<link rel="stylesheet" id="bootstrap-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-flat-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/bootstrap-flat.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="map-default-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/default.css" type="text/css" media="all">
+<link rel="stylesheet" id="map-normalize-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/normalize.css" type="text/css" media="all">
+<link rel="stylesheet" id="map-qtip-css" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/qtip.css" type="text/css" media="all">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://192.168.99.100:8080/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://192.168.99.100:8080/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.3">
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+    <link rel="stylesheet" href="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/admin-style.css" type="text/css">
+
+
+
+<div class="container">
+<h3>Etinlik Ekle</h3>
+    <form>
+
+      <div class="form-group">
+        <label for="birim">Birim</label>
+        <select class="form-control" name="birim" id="birim">
+            <option value="1">Birim 1</option><option value="2">Birim 1</option><option value="3">Birim 1</option><option value="4">Birim 1</option><option selected="selected" value="5">titl1</option>        </select>
+    </div>
+
+
+      <div class="form-group">
+        <label for="il">İl</label>
+        <select class="form-control" name="il" id="il">
+            <option value="1">Adana</option><option value="2">Adıyaman</option><option value="3">Afyon</option><option value="4">Ağrı</option><option selected="selected" value="5">Amasya</option><option value="6">Ankara</option><option value="7">Antalya</option><option value="8">Artvin</option><option value="9">Aydın</option><option value="10">Balıkesir</option><option value="11">Bilecik</option><option value="12">Bingöl</option><option value="13">Bitlis</option><option value="14">Bolu</option><option value="15">Burdur</option><option value="16">Bursa</option><option value="17">Çanakkale</option><option value="18">Çankırı</option><option value="19">Çorum</option><option value="20">Denizli</option><option value="21">Diyarbakır</option><option value="22">Edirne</option><option value="23">Elazığ</option><option value="24">Erzincan</option><option value="25">Erzurum</option><option value="26">Eskişehir</option><option value="27">Gaziantep</option><option value="28">Giresun</option><option value="29">Gümüşhane</option><option value="30">Hakkari</option><option value="31">Hatay</option><option value="32">Isparta</option><option value="33">İçel (Mersin)</option><option value="34">İstanbul</option><option value="35">İzmir</option><option value="36">Kars</option><option value="37">Kastamonu</option><option value="38">Kayseri</option><option value="39">Kırklareli</option><option value="40">Kırşehir</option><option value="41">Kocaeli</option><option value="42">Konya</option><option value="43">Kütahya</option><option value="44">Malatya</option><option value="45">Manisa</option><option value="46">K.maraş</option><option value="47">Mardin</option><option value="48">Muğla</option><option value="49">Muş</option><option value="50">Nevşehir</option><option value="51">Niğde</option><option value="52">Ordu</option><option value="53">Rize</option><option value="54">Sakarya</option><option value="55">Samsun</option><option value="56">Siirt</option><option value="57">Sinop</option><option value="58">Sivas</option><option value="59">Tekirdağ</option><option value="60">Tokat</option><option value="61">Trabzon</option><option value="62">Tunceli</option><option value="63">Şanlıurfa</option><option value="64">Uşak</option><option value="65">Van</option><option value="66">Yozgat</option><option value="67">Zonguldak</option><option value="68">Aksaray</option><option value="69">Bayburt</option><option value="70">Karaman</option><option value="71">Kırıkkale</option><option value="72">Batman</option><option value="73">Şırnak</option><option value="74">Bartın</option><option value="75">Ardahan</option><option value="76">Iğdır</option><option value="77">Yalova</option><option value="78">Karabük</option><option value="79">Kilis</option><option value="80">Osmaniye</option><option value="81">Düzce</option>        </select>
+      </div>
+<datalist id="iller">
+            <option value="Adana">
+        
+            </option><option value="Adıyaman">
+        
+            </option><option value="Afyon">
+        
+            </option><option value="Ağrı">
+        
+            </option><option value="Amasya">
+        
+            </option><option value="Ankara">
+        
+            </option><option value="Antalya">
+        
+            </option><option value="Artvin">
+        
+            </option><option value="Aydın">
+        
+            </option><option value="Balıkesir">
+        
+            </option><option value="Bilecik">
+        
+            </option><option value="Bingöl">
+        
+            </option><option value="Bitlis">
+        
+            </option><option value="Bolu">
+        
+            </option><option value="Burdur">
+        
+            </option><option value="Bursa">
+        
+            </option><option value="Çanakkale">
+        
+            </option><option value="Çankırı">
+        
+            </option><option value="Çorum">
+        
+            </option><option value="Denizli">
+        
+            </option><option value="Diyarbakır">
+        
+            </option><option value="Edirne">
+        
+            </option><option value="Elazığ">
+        
+            </option><option value="Erzincan">
+        
+            </option><option value="Erzurum">
+        
+            </option><option value="Eskişehir">
+        
+            </option><option value="Gaziantep">
+        
+            </option><option value="Giresun">
+        
+            </option><option value="Gümüşhane">
+        
+            </option><option value="Hakkari">
+        
+            </option><option value="Hatay">
+        
+            </option><option value="Isparta">
+        
+            </option><option value="İçel (Mersin)">
+        
+            </option><option value="İstanbul">
+        
+            </option><option value="İzmir">
+        
+            </option><option value="Kars">
+        
+            </option><option value="Kastamonu">
+        
+            </option><option value="Kayseri">
+        
+            </option><option value="Kırklareli">
+        
+            </option><option value="Kırşehir">
+        
+            </option><option value="Kocaeli">
+        
+            </option><option value="Konya">
+        
+            </option><option value="Kütahya">
+        
+            </option><option value="Malatya">
+        
+            </option><option value="Manisa">
+        
+            </option><option value="K.maraş">
+        
+            </option><option value="Mardin">
+        
+            </option><option value="Muğla">
+        
+            </option><option value="Muş">
+        
+            </option><option value="Nevşehir">
+        
+            </option><option value="Niğde">
+        
+            </option><option value="Ordu">
+        
+            </option><option value="Rize">
+        
+            </option><option value="Sakarya">
+        
+            </option><option value="Samsun">
+        
+            </option><option value="Siirt">
+        
+            </option><option value="Sinop">
+        
+            </option><option value="Sivas">
+        
+            </option><option value="Tekirdağ">
+        
+            </option><option value="Tokat">
+        
+            </option><option value="Trabzon">
+        
+            </option><option value="Tunceli">
+        
+            </option><option value="Şanlıurfa">
+        
+            </option><option value="Uşak">
+        
+            </option><option value="Van">
+        
+            </option><option value="Yozgat">
+        
+            </option><option value="Zonguldak">
+        
+            </option><option value="Aksaray">
+        
+            </option><option value="Bayburt">
+        
+            </option><option value="Karaman">
+        
+            </option><option value="Kırıkkale">
+        
+            </option><option value="Batman">
+        
+            </option><option value="Şırnak">
+        
+            </option><option value="Bartın">
+        
+            </option><option value="Ardahan">
+        
+            </option><option value="Iğdır">
+        
+            </option><option value="Yalova">
+        
+            </option><option value="Karabük">
+        
+            </option><option value="Kilis">
+        
+            </option><option value="Osmaniye">
+        
+            </option><option value="Düzce">
+        </option></datalist>
+      <div class="form-group">
+        <label for="ad">Etkinlik Adı</label>
+        <input class="form-control" id="ad" name="ad" placeholder="Etkinlik Adı" type="text">
+    </div>
+
+      <div class="form-group">
+        <label for="adres">Etkinlik Adresi</label>
+        <input class="form-control" id="adres" name="adres" placeholder="Etkinlik Adresi" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="tarih">Etkinlik Tarihi</label>
+        <input class="form-control" id="tarih" name="tarih" placeholder="Etkinlik Tarihi" type="date">
+      </div>
+
+      <div class="form-group">
+        <label for="baslangic">Başlangıç Saati</label>
+        <input class="form-control" id="baslangic" name="baslangic" placeholder="Başlangıç Saati" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="bitis">Bitiş Saati</label>
+        <input class="form-control" id="bitis" name="biris" placeholder="Bitiş Saati" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="aciklama">Açıklama Metni</label>
+        <textarea class="form-control" id="aciklama" name="aciklama" placeholder="Açiklama Metni"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-default">Kaydet</button>
+    </form>
+
+</div>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		<strong><a href="http://192.168.99.100:8080/wp-admin/update-core.php">Get Version 4.4.2</a></strong>	</p>
+	<div class="clear"></div>
+</div>
+	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<div class="wp-auth-check-close" tabindex="0" title="Close"></div>
+			<div id="wp-auth-check-form" data-src="http://192.168.99.100:8080/wp-login.php?interim-login=1"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="http://192.168.99.100:8080/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new window. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete the selected items.\n  'Cancel' to stop, 'OK' to delete.","dismiss":"Dismiss this notice."};var heartbeatSettings = {"nonce":"a162a1b601"};var authcheckL10n = {"beforeunload":"Your session has expired. You can log in again from this page or go to the login page.","interval":"180"};/* ]]> */
+</script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/load-scripts_002.php"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/bootstrap.js"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/jquery-1.js"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/raphael.js"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/paths.js"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/init.js"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/qtip.js"></script>
+<script type="text/javascript" src="Etkinlik%20Ekle%20%E2%80%B9%20net_haftasi%20%E2%80%94%20WordPress_files/jquery.js"></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+
+
+</body></html>

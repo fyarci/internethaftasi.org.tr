@@ -17,10 +17,126 @@ body{
     margin: 0;
     height: 100%;
     width: 100%;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: #f8f8f8;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    text-align: justify ;
+
 }
 
+p{
 
+}
+
+h3{
+    color: #D35400;
+	text-align: left;
+}
+
+h1{
+    color: #D35400;
+    border-bottom: solid black 1px;
+}
+
+a{
+    color: #22313F;
+}
+
+a:hover{
+    color: #F9690E;
+    }
+
+#border-left{
+	border-left: solid 1px gray;
+}
+
+.page-wrapper{
+    padding: 10%;
+    background: #f8f8f8;
+
+}
+.wrapper{
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+	background: #f8f8f8;
+	padding: 5%;
+}
+
+.post-content{
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.nav-bar-color{
+    color: #EEEEEE;
+    border-bottom: solid #D35400 1px;
+}
+
+.logo{
+	margin-bottom: 5%;
+  margin-top: 5%
+}
+
+.logo img{
+	width: 90%;
+}
+
+.stk-logo{
+	width: 50px;
+}
+
+.logo-in-menu{
+	width: 150px;
+}
+
+.col-md-12, .col-md-6 {
+    padding-bottom: 3%;
+}
+
+.post-thumb{
+    width: 65px;
+}
+
+.media{
+    //text-align:left;
+}
+
+.header-menu{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.header-menu  .navbar {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.header-menu > li > a {
+	color: red;
+}
+
+.main-menu{
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+.main-menu .navbar{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#margin-bottom{
+	margin-bottom: 40px;
+}
+
+.menu-icon{
+	width: 30px;
+	padding: 0 ;
+	margin: 0;
+}
+
+/*
 .row-height {
   min-height: 100%;
 }
@@ -82,18 +198,7 @@ body{
     display: flex;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background: #EEEEEE;
-	padding-top: 5%;
-	padding-bottom: 10%;
 }
-
-.logo{
-	margin-bottom: 5%;
-}
-
-.logo img{
-	width: 90%;
-}
-
 .welcome {
 	margin-top: 10%;
 }
@@ -107,17 +212,11 @@ body{
     align-items: center;
     display: flex;
 	background: #F2F1EF;
-	padding-top: 5%;
-	padding-bottom: 10%;
 }
 
 .sponsor{
 	margin-top: 0;
 	margin-bottom: 10%;
-}
-
-.duyurular{
-	text-align: left;
 }
 
 .home-p3{
@@ -131,8 +230,6 @@ body{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background: #EEEEEE;
 	fill: #EEEEEE;
-	padding-top: 5%;
-	padding-bottom: 10%;
 }
 
 .map{
@@ -143,19 +240,6 @@ background-size: contain;
 width: 100%;
 background-size: contain;
 height: 0;
-padding: 0; /* reset */
-padding-bottom: calc(100% * 3 / 4);
-}
-
-.footer{
-    border-top: dashed 2px white ;
-    background-color: #336E7B;
-    min-height: 100px;
-	padding-top: 5%;
-	padding-bottom: 10%;
-}
-
-.footer-menu{
-	color: white;
 
 }
+ /*
